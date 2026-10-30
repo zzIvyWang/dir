@@ -33,7 +33,7 @@ jobs:
             echo "---"
             echo ""
             echo "$ISSUE_BODY"
-          } > "my-site/src/content/blog/${SLUG}.mdx"
+          } > "src/content/blog/${SLUG}.mdx"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
