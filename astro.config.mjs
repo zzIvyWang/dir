@@ -6,7 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://zzIvyWang/dir/',
+	site: 'https://zzIvyWang.github.io/dir/',
 	base: '/dir/',
 	integrations: [mdx(), sitemap()],
 	fonts: [
